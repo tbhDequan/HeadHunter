@@ -1,0 +1,26 @@
+
+#___ ___                     .______ ___               __
+#/   |   \   ____ _____     __| _/   |   \ __ __  _____/  |_  ___________
+#/    ~    \_/ __ \\__  \   / __ /    ~    \  |  \/    \   __\/ __ \_  __ \
+#\    Y    /\  ___/ / __ \_/ /_/ \    Y    /  |  /   |  \  | \  ___/|  | \/
+#\___|_  /  \___  >____  /\____ |\___|_  /|____/|___|  /__|  \___  >__|
+#\/       \/     \/      \/      \/            \/          \/
+# HeadHunting Plugin For Pocketmine-MP created by ArcDente
+# Here you can edit messages and percentage gotten when heads are sold
+
+# Percentage: How much of the user money is removed when redeeming
+# Use a number 0-100, anything above or below may give errors
+percentage: 20
+
+# Choose to allow Placing Of Heads Or Disable It.
+place-enabled: false
+place-head: "You cannot place Heads"
+
+# When a player tries to redeem their own head
+own-head: "You cannot sell your own head"
+
+# When a player sells a head
+# You can now use:
+# {player} - The name of the player's head you are selling
+# {price} - The amount of money you will get for selling the head
+sell-head: "You sold a {player}'s head for ${price}"

@@ -1,0 +1,9 @@
+name: HeadHunter
+version: 0.1-Beta
+main: headhunter\Main
+api: [3.2.0, 4.0.0]
+load: STARTUP
+author: ArcDente
+depend:
+  - EconomyAPI
+description: An advanced headhunting plugin that drops head on death that can be redeemed!
